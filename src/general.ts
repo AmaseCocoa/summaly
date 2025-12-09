@@ -138,6 +138,7 @@ export type GeneralScrapingOptions = {
 	contentLengthLimit?: number;
 	contentLengthRequired?: boolean;
 	cookie?: string;
+	checkRobots?: boolean;
 };
 
 export async function general(_url: URL | string, opts?: GeneralScrapingOptions): Promise<Summary | null> {

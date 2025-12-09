@@ -49,6 +49,7 @@
     "jschardet": "3.1.4",
     "parse5": "^8.0.0",
     "private-ip": "3.0.2",
+    "robots-parser": "^3.0.1",
     "undici": "^7.16.0"
   }
 }
